@@ -1,9 +1,9 @@
 function makeTransaction(quantity, pricePerDroid){
-    let totalPrice = 0;
+let totalPrice = 0;
 
-    totalPrice = quantity * pricePerDroid;
+totalPrice = quantity * pricePerDroid;
 
-    return "You ordered "  + quantity + " droids worth " + totalPrice + " credits!"
+return "You ordered "  + quantity + " droids worth " + totalPrice + " credits!"
 
 }
 
